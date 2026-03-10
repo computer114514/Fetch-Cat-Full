@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .jianli {
+      border: 1px solid #000;
+      margin: 0 auto;
+      width: 800px;
+      background-color: #F5F5F5;
+    }
+
+    .information .photo {
+      vertical-align: top;
+      display: inline-block;
+      height: 200px;
+      width: 120px;
+      padding: 0 40px;
+    }
+
+    .information .photo img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+
+    .information .real-information {
+
+      display: flex;
+      flex-direction: column;
+      vertical-align: top;
+      display: inline-block;
+      height: 200px;
+      width: 550px;
+      padding: 0 20px;
+    }
+
+    .information .real-information div {
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 100px;
+      margin: 20px 20px;
+    }
+
+    .information .real-information h1 {
+      margin: 20px;
+    }
+
+    .modules{
+      margin: 10px 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="jianli">
+    <div class="information">
+      <div class="photo">
+        <img src="./white.jpg" alt="">
+      </div>
+
+      <div class="real-information">
+
+        <h1>金赛洋</h1>
+        <div>
+          <span>学校：南京工程学院</span>
+          <span>专业：数字媒体技术</span>
+          <span>年龄：18岁</span>
+          <span>籍贯：江苏省南通市</span>
+          <span>github：https://github.com/</span>
+          <span>电话：19709291876</span>
+          <span>邮箱：3058094441@qq.com</span>
+        </div>
+      </div>
+    </div>
+        <div class="eduExperience modules">
+      <h2>>>>教育经历</h2>
+      <button>添加教育经历</button>
+      <div></div>
+    </div>
+    <div class="direction modules">
+      <h2>>>>求职方向</h2>
+      <span> 前端开发 </span>
+    </div>
+    <div class="xiangmu modules">
+      <h2>>>>项目经历</h2>
+      <button>添加项目</button>
+      <div></div>
+    </div>
+    <div class="jishuzhan modules">
+      <h2>>>>项目栈</h2>
+      <span>前端开发:html5 css3 javascript</span>
+    </div>
+    <div class="certificate modules">
+      <h2>>>>获奖证书</h2>
+      <button>添加证书</button>
+      <div></div>
+    </div>
+
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
